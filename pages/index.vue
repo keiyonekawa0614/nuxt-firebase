@@ -11,15 +11,11 @@
       </figure>
       <div class="media-content">
         <div class="content">
-          <p><strong><nuxt-link :to="article.url">{{ article.title}}</nuxt-link></strong><br>
+          <p><strong><a :href="article.url">{{ article.title}}</a></strong><br>
             {{ article.user.id }}<br>
             <small>Like · {{ article.likes_count }}</small>
           </p>
         </div>
-        ? Select a default Firebase project for this directory: nuxt-tutorial (nuxt-tutorial-491c1)
-
-        ? What do you want to use as your public directory? dist
-        ? Configure as a single-page app (rewrite all urls to /index.html)? No
       </div>
     </article>
   </section>
